@@ -1,4 +1,5 @@
 import HugeBoxSlider from "../hugeBoxSlider/hugeBoxSlider";
+import SmallSlider from "../smallSlider/SmallSlider";
 
 import "./main.css";
 
@@ -7,7 +8,7 @@ const Main = () => {
     <main className="main">
       <section className="main__contentBox">
         <HugeBoxSlider />
-        <section className="main__contentBox__slider"></section>
+        <SmallSlider />
       </section>
       <section className="main__contentBox">
         <section className="main__contentBox__hugeBox"></section>

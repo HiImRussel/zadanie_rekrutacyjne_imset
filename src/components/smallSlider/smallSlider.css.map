@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,8BAA8B,CAAC;EAC7B,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,KAAK;CACxB",
+    "sources": [
+        "smallSlider.scss"
+    ],
+    "names": [],
+    "file": "smallSlider.css"
+}

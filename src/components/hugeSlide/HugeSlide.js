@@ -28,7 +28,7 @@ const HugeSlide = ({ img, icons }) => {
             KUP INTERNET,
           </h1>
           <section className="main__contentBox__hugeBoxSlider__slide__bottom__halfText">
-            <p className="main__contentBox__hugeBoxSlider__slide__bottom__halfText__paragraph">
+            <h6 className="main__contentBox__hugeBoxSlider__slide__bottom__halfText__paragraph">
               A{" "}
               <span className="main__contentBox__hugeBoxSlider__slide__bottom__halfText__paragraph__span">
                 HBO
@@ -39,7 +39,7 @@ const HugeSlide = ({ img, icons }) => {
               <p className="main__contentBox__hugeBoxSlider__slide__bottom__halfText__paragraph--bigger">
                 DOSTANIESZ ZA
               </p>
-            </p>
+            </h6>
             <h1 className="main__contentBox__hugeBoxSlider__slide__bottom__halfText__priceHeader">
               1
               <span className="main__contentBox__hugeBoxSlider__slide__bottom__halfText__priceHeader__currency">

@@ -6,3 +6,8 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+.main__contentBox {
+  display: flex;
+  margin-bottom: 2px;
+}
