@@ -24,7 +24,7 @@ const Header = () => {
             alt="phone icon"
             className="header__right__link__image"
           ></img>{" "}
-          800 090 800
+          SZUKAJ
         </span>
         <span className="header__right__text">
           <img
@@ -32,7 +32,7 @@ const Header = () => {
             alt="phone icon"
             className="header__right__link__image"
           ></img>{" "}
-          800 090 800
+          STREFA ABONENTA
         </span>
       </section>
     </header>
