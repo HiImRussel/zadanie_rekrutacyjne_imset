@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zadanie_rekrutacyjne_imset/static/css/main.4236abdc.chunk.css",
+    "main.css": "/zadanie_rekrutacyjne_imset/static/css/main.31421918.chunk.css",
     "main.js": "/zadanie_rekrutacyjne_imset/static/js/main.805ccda3.chunk.js",
     "main.js.map": "/zadanie_rekrutacyjne_imset/static/js/main.805ccda3.chunk.js.map",
     "runtime-main.js": "/zadanie_rekrutacyjne_imset/static/js/runtime-main.d250f61b.js",
@@ -10,7 +10,7 @@
     "static/js/2.a8ea59e5.chunk.js.map": "/zadanie_rekrutacyjne_imset/static/js/2.a8ea59e5.chunk.js.map",
     "index.html": "/zadanie_rekrutacyjne_imset/index.html",
     "static/css/2.2c960b87.chunk.css.map": "/zadanie_rekrutacyjne_imset/static/css/2.2c960b87.chunk.css.map",
-    "static/css/main.4236abdc.chunk.css.map": "/zadanie_rekrutacyjne_imset/static/css/main.4236abdc.chunk.css.map",
+    "static/css/main.31421918.chunk.css.map": "/zadanie_rekrutacyjne_imset/static/css/main.31421918.chunk.css.map",
     "static/js/2.a8ea59e5.chunk.js.LICENSE.txt": "/zadanie_rekrutacyjne_imset/static/js/2.a8ea59e5.chunk.js.LICENSE.txt",
     "static/media/TV.94cca86d.svg": "/zadanie_rekrutacyjne_imset/static/media/TV.94cca86d.svg",
     "static/media/android-logo.8e87c214.svg": "/zadanie_rekrutacyjne_imset/static/media/android-logo.8e87c214.svg",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.d250f61b.js",
     "static/css/2.2c960b87.chunk.css",
     "static/js/2.a8ea59e5.chunk.js",
-    "static/css/main.4236abdc.chunk.css",
+    "static/css/main.31421918.chunk.css",
     "static/js/main.805ccda3.chunk.js"
   ]
 }
