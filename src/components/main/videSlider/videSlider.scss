@@ -16,6 +16,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    &::after {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #84b82a;
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      z-index: 8;
+      transform: translateX(-50%);
+    }
   }
 
   &__heading {
