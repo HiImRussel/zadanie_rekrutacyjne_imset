@@ -21,4 +21,55 @@
   height: 2px;
   background-color: white;
 }
+
+#mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.521);
+  z-index: 10;
+}
+
+.mobileMenu__nav {
+  width: 30%;
+  padding: 30px;
+  background-color: #1a1a1a;
+  height: 100%;
+  color: white;
+}
+
+.mobileMenu__nav__list {
+  padding: 0px;
+}
+
+.mobileMenu__nav__list__element {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.mobileMenu__nav__link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mobileMenu__nav__link:hover {
+  color: #84b82a;
+  text-decoration: underline;
+}
+
+.mobileMenu__nav__btn {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  font-size: 2rem;
+  float: right;
+  cursor: pointer;
+}
+
+.mobileMenu__nav__btn:focus {
+  outline: none;
+}
 /*# sourceMappingURL=menu.css.map */
