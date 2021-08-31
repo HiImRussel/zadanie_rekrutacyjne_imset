@@ -22,10 +22,12 @@
   font-weight: 400;
   color: #bab1cb;
   font-size: 0.8rem;
+  text-align: center;
 }
 
 .main__contentBox__packetBox__iconBox__title {
   font-size: 0.9rem;
   width: 60%;
+  text-align: center;
 }
 /*# sourceMappingURL=iconBox.css.map */

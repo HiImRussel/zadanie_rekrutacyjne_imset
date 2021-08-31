@@ -15,11 +15,16 @@ const PacketInfoBox = () => {
   ]);
 
   const iconBox = iconBoxesData.map((iconBoxData) => (
-    <IconBox
-      key={iconBoxData.id}
-      icon={iconBoxData.icon}
-      title={iconBoxData.title}
-    />
+    <>
+      <IconBox
+        key={iconBoxData.id}
+        icon={iconBoxData.icon}
+        title={iconBoxData.title}
+      />
+      {iconBoxesData.indexOf(iconBoxData) < iconBoxesData.length - 1 && (
+        <span className="main__contentBox__packetBox__plus">+</span>
+      )}
+    </>
   ));
   return (
     <section className="main__contentBox__packetBox">

@@ -48,6 +48,13 @@
       outline: none;
     }
   }
+
+  &__plus {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    align-self: center;
+  }
 }
 
 @media only screen and (max-width: 1360px) {
@@ -71,5 +78,9 @@
   }
   .main__contentBox__packetBox {
     height: auto;
+  }
+  .main__contentBox__packetBox__plus {
+    width: 100%;
+    text-align: center;
   }
 }
