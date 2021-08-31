@@ -1,0 +1,45 @@
+.main__contentBox__videoSlider {
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  &__top {
+    width: 100%;
+    height: 5vw;
+    padding: 15px;
+    background-color: #84b82a;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__heading {
+    font-size: 1.4rem;
+  }
+
+  &__viewers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.336);
+  }
+
+  &__viewersText {
+    text-align: center;
+    color: #d9e8c1;
+    font-size: 0.6rem;
+  }
+
+  &__icon {
+    height: 20px;
+  }
+
+  &__slider {
+    height: 15vw;
+  }
+}

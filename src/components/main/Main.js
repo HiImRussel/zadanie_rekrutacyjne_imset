@@ -2,6 +2,8 @@ import HugeBoxSlider from "../hugeBoxSlider/hugeBoxSlider";
 import SmallSlider from "../smallSlider/SmallSlider";
 
 import "./main.css";
+import PacketInfoBox from "./packetInfoBox/PacketInfoBox";
+import VideoSlider from "./videSlider/videSlider";
 
 const Main = () => {
   return (
@@ -11,8 +13,8 @@ const Main = () => {
         <SmallSlider />
       </section>
       <section className="main__contentBox">
-        <section className="main__contentBox__hugeBox"></section>
-        <section className="main__contentBox__slider"></section>
+        <PacketInfoBox />
+        <VideoSlider />
       </section>
       <section className="main__contentBox">
         <section className="main__contentBox__box"></section>

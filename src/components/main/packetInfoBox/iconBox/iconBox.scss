@@ -1,0 +1,21 @@
+.main__contentBox__packetBox__iconBox__box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.main__contentBox__packetBox__iconBox {
+  &__icon {
+    height: 80px;
+  }
+  &__choose {
+    font-weight: 400;
+    color: #bab1cb;
+    font-size: 0.8rem;
+  }
+  &__title {
+    font-size: 0.9rem;
+  }
+}
