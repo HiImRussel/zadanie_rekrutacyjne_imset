@@ -7,12 +7,12 @@
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-}
 
-.header__hamburgerMenu__line {
-  width: 100%;
-  height: 2px;
-  background-color: white;
+  &__line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+  }
 }
 
 #mobileMenu {
@@ -23,10 +23,12 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.521);
   z-index: 10;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .mobileMenu__nav {
-  width: 30%;
+  width: 0%;
   padding: 30px;
   background-color: #1a1a1a;
   height: 100%;
