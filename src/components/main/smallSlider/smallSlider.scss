@@ -3,3 +3,10 @@
   height: 45vh;
   background-color: black;
 }
+
+@media only screen and (max-width: 1100px) {
+  .main__contentBox__smallSlider {
+    width: 95vw;
+    margin: 1px 0px 1px 0px;
+  }
+}

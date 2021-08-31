@@ -49,3 +49,27 @@
     }
   }
 }
+
+@media only screen and (max-width: 1360px) {
+  .main__contentBox__packetBox {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .main__contentBox__packetBox {
+    width: 95vw;
+    margin: 0px 0px 1px 0px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .main__contentBox__packetBox__iconBox {
+    flex-wrap: wrap;
+    margin: 0px;
+    justify-content: center;
+  }
+  .main__contentBox__packetBox {
+    height: auto;
+  }
+}

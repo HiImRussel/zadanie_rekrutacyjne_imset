@@ -11,6 +11,9 @@
   padding: 0px 20%;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 7;
 
   &__right {
     margin-top: 10px;
@@ -48,5 +51,17 @@
         width: 13px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header {
+    padding: 0px 2.5%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header__right {
+    display: none;
   }
 }

@@ -17,7 +17,7 @@ const SmallSlider = () => {
       ],
       price: "14.00 zł",
       views: 125,
-      bgImg: hero1,
+      bgImg: hero2,
     },
     {
       id: 1,
@@ -28,7 +28,7 @@ const SmallSlider = () => {
       ],
       price: "14.00 zł",
       views: 125,
-      bgImg: hero2,
+      bgImg: hero1,
     },
   ]);
   const slides = slidesData.map((slideData) => (
@@ -52,6 +52,11 @@ const SmallSlider = () => {
           height: "45vh",
           pagination: false,
           arrows: true,
+          breakpoints: {
+            1100: {
+              width: "95vw",
+            },
+          },
         }}
       >
         {slides.length > 0 && slides}

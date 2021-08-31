@@ -6,13 +6,15 @@ import chat from "../../../../sources/icons/chat.svg";
 const SecBox = () => {
   return (
     <section className="main__contentBox__threeBox__box main__contentBox__threeBox__secBox">
-      <h1 className="main__contentBox__threeBox__secBox__title">
-        NASZ SUPPORT
-      </h1>
-      <p className="main__contentBox__threeBox__secBox__text">
-        PROPOZYCJE NASZEGO TV-MANIAKA <br />
-        NA WEEKEND
-      </p>
+      <section className="main__contentBox__threeBox__secBox__top">
+        <h1 className="main__contentBox__threeBox__secBox__title">
+          NASZ SUPPORT
+        </h1>
+        <p className="main__contentBox__threeBox__secBox__text">
+          PROPOZYCJE NASZEGO TV-MANIAKA <br />
+          NA WEEKEND
+        </p>
+      </section>
       <section className="main__contentBox__threeBox__secBox__userSection">
         <img
           src={user}

@@ -49,6 +49,11 @@ const HugeBoxSlider = () => {
           height: "45vh",
           gap: "1rem",
           arrows: false,
+          breakpoints: {
+            1100: {
+              width: "95vw",
+            },
+          },
         }}
       >
         {slides.length > 0 && slides}

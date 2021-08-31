@@ -67,6 +67,15 @@ const VideoSlider = () => {
             gap: "1rem",
             arrows: true,
             pagination: false,
+            breakpoints: {
+              1360: {
+                height: "40vh",
+              },
+              1100: {
+                width: "95vw",
+                height: "40vh",
+              },
+            },
           }}
         >
           {slides.length > 0 && slides}

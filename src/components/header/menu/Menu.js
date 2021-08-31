@@ -11,7 +11,11 @@ const Menu = () => {
         { opacity: 0 },
         { opacity: 1, visibility: "inherit" }
       );
-      gsap.fromTo(".mobileMenu__nav", { width: "0px" }, { width: "30%" });
+      gsap.fromTo(
+        ".mobileMenu__nav",
+        { width: "0px" },
+        { width: window.innerWidth > 700 ? "30%" : "92vw" }
+      );
       setIsOpen((prevValue) => !prevValue);
     } else {
       gsap.fromTo(
@@ -24,7 +28,11 @@ const Menu = () => {
           },
         }
       );
-      gsap.fromTo(".mobileMenu__nav", { width: "30%" }, { width: "0px" });
+      gsap.fromTo(
+        ".mobileMenu__nav",
+        { width: window.innerWidth > 700 ? "30%" : "100%" },
+        { width: "0px" }
+      );
       setIsOpen((prevValue) => !prevValue);
     }
   };

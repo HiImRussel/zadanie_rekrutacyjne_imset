@@ -16,6 +16,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 7;
 }
 
 .header__right {
@@ -61,5 +65,17 @@
 .header__right__link__image {
   height: 13px;
   width: 13px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .header {
+    padding: 0px 2.5%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header__right {
+    display: none;
+  }
 }
 /*# sourceMappingURL=header.css.map */

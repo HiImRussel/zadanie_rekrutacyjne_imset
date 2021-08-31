@@ -48,4 +48,10 @@
   color: #84b82a;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 1360px) {
+  .main__contentBox__videoSlider__slide {
+    height: 40vh;
+  }
+}
 /*# sourceMappingURL=slide.css.map */
