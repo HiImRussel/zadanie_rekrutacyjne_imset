@@ -1,6 +1,7 @@
 .main__contentBox__threeBox__firstBox {
   background-color: #262626;
-  margin-right: 2px;
+  margin-right: 1px;
+  position: relative;
 
   &__title {
     color: #84b82a;
@@ -43,6 +44,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
   }
 
   &__priceHeading {
