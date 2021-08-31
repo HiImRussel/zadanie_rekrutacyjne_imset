@@ -1,6 +1,6 @@
 import { SplideSlide } from "@splidejs/react-splide";
 import "./smallSlide.css";
-import users from "../../sources/icons/customer.svg";
+import users from "../../../../sources/icons/customer.svg";
 
 const SmallSlide = ({ title, tags, price, views, img }) => {
   const displayTags = tags.map((tag) => (

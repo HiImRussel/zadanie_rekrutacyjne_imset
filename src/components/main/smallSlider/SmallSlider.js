@@ -2,9 +2,9 @@ import { Splide } from "@splidejs/react-splide";
 import "./smallSlider.css";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { useState } from "react";
-import SmallSlide from "../smallSlide/smallSlide";
-import hero1 from "../../sources/imgs/hero2.jpg";
-import hero2 from "../../sources/imgs/batman.jpg";
+import SmallSlide from "./smallSlide/smallSlide";
+import hero1 from "../../../sources/imgs/hero2.jpg";
+import hero2 from "../../../sources/imgs/batman.jpg";
 
 const SmallSlider = () => {
   const [slidesData, setSlidesData] = useState([
@@ -45,6 +45,9 @@ const SmallSlider = () => {
     <section className="main__contentBox__smallSlider">
       <Splide
         options={{
+          type: "loop",
+          autoplay: true,
+          interval: 10000,
           width: "20vw",
           height: "40vh",
           pagination: false,

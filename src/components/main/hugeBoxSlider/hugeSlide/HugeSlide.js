@@ -1,5 +1,5 @@
 import { SplideSlide } from "@splidejs/react-splide";
-import HugeSlideIcon from "../hugeSlideIcon.js/HugeSlideIcon";
+import HugeSlideIcon from "./hugeSlideIcon.js/HugeSlideIcon";
 
 const HugeSlide = ({ img, icons }) => {
   const iconsDisplay = icons.map((icon) => (

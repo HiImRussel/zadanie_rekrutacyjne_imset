@@ -1,4 +1,4 @@
-import Menu from "../menu/Menu";
+import Menu from "./menu/Menu";
 import "./header.css";
 import phone from "../../sources/icons/phone.svg";
 import user from "../../sources/icons/user.svg";

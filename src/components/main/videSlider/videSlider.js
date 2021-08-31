@@ -59,6 +59,9 @@ const VideoSlider = () => {
       <section className="main__contentBox__videoSlider__slider">
         <Splide
           options={{
+            type: "loop",
+            autoplay: true,
+            interval: 10000,
             width: "40vw",
             height: "15vw",
             gap: "1rem",

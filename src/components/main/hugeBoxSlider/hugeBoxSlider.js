@@ -2,10 +2,10 @@ import "./hugeBoxSlider.css";
 import { Splide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import { useState } from "react";
-import bgImg from "../../sources/imgs/network.jpg";
-import HugeSlide from "../hugeSlide/HugeSlide";
-import mouse from "../../sources/icons/mouse.svg";
-import gift from "../../sources/icons/gift.svg";
+import bgImg from "../../../sources/imgs/network.jpg";
+import HugeSlide from "./hugeSlide/HugeSlide";
+import mouse from "../../../sources/icons/mouse.svg";
+import gift from "../../../sources/icons/gift.svg";
 
 const HugeBoxSlider = () => {
   const [sliderData, setSliderData] = useState([
@@ -42,6 +42,9 @@ const HugeBoxSlider = () => {
     <section className="main__contentBox__hugeBoxSlider">
       <Splide
         options={{
+          type: "loop",
+          autoplay: true,
+          interval: 10000,
           width: "40vw",
           height: "40vh",
           gap: "1rem",

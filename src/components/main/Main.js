@@ -1,5 +1,5 @@
-import HugeBoxSlider from "../hugeBoxSlider/hugeBoxSlider";
-import SmallSlider from "../smallSlider/SmallSlider";
+import HugeBoxSlider from "./hugeBoxSlider/hugeBoxSlider";
+import SmallSlider from "./smallSlider/SmallSlider";
 
 import "./main.css";
 import PacketInfoBox from "./packetInfoBox/PacketInfoBox";
