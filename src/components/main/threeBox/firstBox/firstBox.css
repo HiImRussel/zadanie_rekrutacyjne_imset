@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.main__contentBox__threeBox__firstBox {
+  background-color: #262626;
+  margin-right: 2px;
+}
+
+.main__contentBox__threeBox__firstBox__title {
+  color: #84b82a;
+  font-size: 1.7rem;
+}
+
+.main__contentBox__threeBox__firstBox__promo {
+  color: #675190;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.main__contentBox__threeBox__firstBox__text {
+  color: white;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.main__contentBox__threeBox__firstBox__list {
+  padding: 5px 0px 10px 15px;
+  list-style: none;
+}
+
+.main__contentBox__threeBox__firstBox__listElement {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.main__contentBox__threeBox__firstBox__listElement::before {
+  content: "• ";
+  color: #84b82a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.main__contentBox__threeBox__firstBox__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__contentBox__threeBox__firstBox__priceHeading {
+  text-align: right;
+  font-size: 1rem;
+  margin-right: 5px;
+  color: #84b82a;
+}
+
+.main__contentBox__threeBox__firstBox__price {
+  color: #675190;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+/*# sourceMappingURL=firstBox.css.map */

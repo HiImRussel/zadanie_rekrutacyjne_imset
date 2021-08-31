@@ -1,0 +1,9 @@
+.main__contentBox__threeBox {
+  display: flex;
+
+  &__box {
+    width: 20vw;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}

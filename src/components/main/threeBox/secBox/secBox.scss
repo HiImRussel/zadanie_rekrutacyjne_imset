@@ -1,0 +1,58 @@
+.main__contentBox__threeBox__secBox {
+  background-image: url("../../../../sources/imgs/bgBox.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 2px;
+
+  &__title {
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  &__text {
+    color: #84b82a;
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+
+  &__userSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  &__userIMG {
+    height: 90px;
+  }
+
+  &__description {
+    &__box {
+      display: flex;
+      align-items: center;
+      color: white;
+      margin-top: 20px;
+      cursor: pointer;
+
+      &:nth-child(1) {
+        margin-top: 0px;
+      }
+
+      &__icon {
+        height: 30px;
+      }
+
+      &__text {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  &__expert {
+    color: #84b82a;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 15%;
+  }
+}

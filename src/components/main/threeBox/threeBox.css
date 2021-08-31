@@ -1,0 +1,13 @@
+.main__contentBox__threeBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__contentBox__threeBox__box {
+  width: 20vw;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=threeBox.css.map */

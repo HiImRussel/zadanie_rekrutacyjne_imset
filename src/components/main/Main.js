@@ -3,6 +3,7 @@ import SmallSlider from "../smallSlider/SmallSlider";
 
 import "./main.css";
 import PacketInfoBox from "./packetInfoBox/PacketInfoBox";
+import ThreeBox from "./threeBox/ThreeBox";
 import VideoSlider from "./videSlider/videSlider";
 
 const Main = () => {
@@ -17,8 +18,7 @@ const Main = () => {
         <VideoSlider />
       </section>
       <section className="main__contentBox">
-        <section className="main__contentBox__box"></section>
-        <section className="main__contentBox__box"></section>
+        <ThreeBox />
       </section>
     </main>
   );

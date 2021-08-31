@@ -1,0 +1,67 @@
+.main__contentBox__threeBox__secBox {
+  background-image: url("../../../../sources/imgs/bgBox.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 2px;
+}
+
+.main__contentBox__threeBox__secBox__title {
+  color: white;
+  font-size: 1.7rem;
+}
+
+.main__contentBox__threeBox__secBox__text {
+  color: #84b82a;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.main__contentBox__threeBox__secBox__userSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.main__contentBox__threeBox__secBox__userIMG {
+  height: 90px;
+}
+
+.main__contentBox__threeBox__secBox__description__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.main__contentBox__threeBox__secBox__description__box:nth-child(1) {
+  margin-top: 0px;
+}
+
+.main__contentBox__threeBox__secBox__description__box__icon {
+  height: 30px;
+}
+
+.main__contentBox__threeBox__secBox__description__box__text {
+  font-size: 0.7rem;
+}
+
+.main__contentBox__threeBox__secBox__expert {
+  color: #84b82a;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 15%;
+}
+/*# sourceMappingURL=secBox.css.map */
