@@ -1,6 +1,6 @@
 .main__contentBox__smallSlider__slide {
   width: 20vw;
-  height: 40vh;
+  height: 45vh;
   color: white;
   background-position: center;
   background-size: cover;
@@ -26,29 +26,16 @@
   content: "";
   z-index: 4;
   width: 20vw;
-  height: 40vh;
+  height: 45vh;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.59)), color-stop(44.79%, rgba(196, 196, 196, 0)));
   background: linear-gradient(360deg, rgba(0, 0, 0, 0.59) 0%, rgba(196, 196, 196, 0) 44.79%);
   top: 0;
   left: 0;
 }
 
-.splide__arrow {
-  background: transparent !important;
-  opacity: 1 !important;
-}
-
-.splide__arrow svg {
-  fill: white;
-}
-
 .main__contentBox__smallSlider__slide__top {
   position: relative;
   z-index: 6;
-}
-
-.main__contentBox__smallSlider__slide__bottom__right__icon {
-  height: 20px;
 }
 
 .main__contentBox__smallSlider__slide__top__header {
@@ -57,6 +44,10 @@
 
 .main__contentBox__smallSlider__slide__top__paragraph {
   font-size: 0.7rem;
+}
+
+.main__contentBox__smallSlider__slide__bottom__right__icon {
+  height: 20px;
 }
 
 .main__contentBox__smallSlider__slide__bottom {
@@ -115,5 +106,16 @@
 .main__contentBox__smallSlider__slide__bottom__right__header {
   text-align: center;
   margin-bottom: 5px;
+}
+
+.splide__arrow {
+  background: transparent !important;
+  opacity: 1 !important;
+}
+
+.splide__arrow svg {
+  fill: white;
+  width: 40px;
+  height: auto;
 }
 /*# sourceMappingURL=smallSlide.css.map */

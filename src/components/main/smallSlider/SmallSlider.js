@@ -49,7 +49,7 @@ const SmallSlider = () => {
           autoplay: true,
           interval: 10000,
           width: "20vw",
-          height: "40vh",
+          height: "45vh",
           pagination: false,
           arrows: true,
         }}

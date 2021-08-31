@@ -46,7 +46,7 @@ const HugeBoxSlider = () => {
           autoplay: true,
           interval: 10000,
           width: "40vw",
-          height: "40vh",
+          height: "45vh",
           gap: "1rem",
           arrows: false,
         }}
